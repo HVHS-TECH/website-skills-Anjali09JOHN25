@@ -21,3 +21,14 @@ text-align: center;
   a{
     color:white;
   }
+
+  .container div.navbar {
+    display: grid;
+    grid-template-columns: 80px, 200px, auto;
+  }
+
+  .container div.information {
+    display: grid;
+  grid-template-columns: auto auto auto;
+  }
+
