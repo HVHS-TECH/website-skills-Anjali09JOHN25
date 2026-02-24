@@ -22,13 +22,28 @@ text-align: center;
     color:white;
   }
 
+  .container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+  }
+
   .container div.navbar {
     display: grid;
-    grid-template-columns: 80px, 200px, auto;
+    grid-template-columns: 1fr, 1fr, 1fr ;
+    gap: 3px;
+    background-color: rgb(14, 67, 120);
+    padding: 5px;
   }
 
   .container div.information {
-    display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr, 1fr, 1fr;
   }
+
+  .container div.list {
+grid-template-columns: 3fr, 3fr, 3fr;
+  gap: 3px;
+  background-color: rgb(14, 67, 120);
+  padding: 5px;
+  }
+ 
 
